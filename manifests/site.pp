@@ -1,6 +1,6 @@
 node default {
 }
-node puppet-master.z192.lan {
+node puppet-master {
   include role::master_server
 }
 node /^web/ {
